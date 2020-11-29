@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: var(--g-dark-grey-color);
+
+        &:hover {
+            color: var(--g-link-color);
+        }
+    }
+}

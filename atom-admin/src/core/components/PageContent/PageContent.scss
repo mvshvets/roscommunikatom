@@ -1,0 +1,4 @@
+.page-content{
+    padding: var(--g-default-page-padding);
+    min-height: calc(100vh - var(--height-header) - (var(--height-footer)));
+}

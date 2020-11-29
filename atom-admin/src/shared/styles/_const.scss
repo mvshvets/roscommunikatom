@@ -1,0 +1,39 @@
+:root {
+    // Size
+    --height-header: 80px;
+    --height-footer: 50px;
+
+    // Colors
+    --g-dark-grey-color: #333333;
+    --g-grey-color: #5F6062;
+    --g-light-grey-color: #ECF1F2;
+    --g-dark-blue-color: #003274;
+    --g-blue-color: #025EA1;
+    --g-cyan-color: #6CACE4;
+    --g-white-color: #FFF;
+    --g-black-color: #000;
+    --g-link-color: #2286F7;
+
+    /* отступы для компонент, формирующие главный контент через роуты */
+    --g-default-page-padding: 20px 60px;
+}
+
+// Media queries breakpoints
+// Extra small screen / phone
+$g_screen_xxs: 320px;
+$g_screen_xs: 480px;
+
+// Small screen / tablet
+$g_screen_sm: 576px;
+
+// Medium screen / desktop
+$g_screen_md: 768px;
+
+// Large screen / wide desktop
+$g_screen_lg: 992px;
+
+// Extra large screen / full hd
+$g_screen_xl: 1200px;
+
+// Extra extra large screen / large desktop
+$g_screen_xxl: 1600px;

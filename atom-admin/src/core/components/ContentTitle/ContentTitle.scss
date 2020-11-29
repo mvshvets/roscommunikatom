@@ -1,0 +1,14 @@
+.content-title {
+    padding: 20px 60px 10px;
+    margin: 0 -60px 20px;
+    border-bottom: 1px solid var(--g-light-grey-color);
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .buttons-toolbar {
+        margin: 10px;
+    }
+}

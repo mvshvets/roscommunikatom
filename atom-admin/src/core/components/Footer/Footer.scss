@@ -1,0 +1,18 @@
+.footer {
+    height: var(--height-footer);
+    border-top: 1px solid var(--g-light-grey-color);
+    width: 100%;
+    background: var(--g-white-color);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+    div {
+        margin: 0 80px;
+        font-size: 16px;
+
+        span {
+            margin-left: 20px;
+        }
+    }
+}
